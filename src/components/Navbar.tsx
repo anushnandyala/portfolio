@@ -15,7 +15,9 @@ const Navbar = () => {
 
   return (
     <nav className="fixed top-0 left-0 w-full bg-gray-100 dark:bg-gray-900 shadow-md p-4 flex justify-between items-center z-50">
-      <div className="text-xl font-bold text-gray-900 dark:text-white">Anush Nandyala</div>
+      <div className="text-xl font-bold text-gray-900 dark:text-white">
+        <a href="#home" className="text-gray-700 dark:text-gray-300">Anush Nandyala</a> 
+      </div>
       <div className="space-x-4 flex items-center">
         <a href="#home" className="text-gray-700 dark:text-gray-300">Home</a>
         <a href="#resume" className="text-gray-700 dark:text-gray-300">Resume</a>
