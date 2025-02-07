@@ -6,7 +6,7 @@ const Home = () => {
         {/* Profile Picture */}
         <div className="w-60 h-60 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-gray-300 dark:border-gray-600">
           <img
-            src="/id.jpeg" // Ensure profile picture is inside `public/` folder as "id.jpeg"
+            src={`${import.meta.env.BASE_URL}id.jpeg`} // Ensure profile picture is inside `public/` folder as "id.jpeg"
             alt="Anush Nandyala"
             className="w-full h-full object-cover"
           />

@@ -19,7 +19,7 @@ const Resume = () => {
         >
           <div className="relative w-48 h-64 hover:scale-105 transition-transform">
             <img
-              src="/resume-preview.png"
+              src={`${import.meta.env.BASE_URL}resume-preview.png`}
               alt="Resume Preview"
               className="w-full h-auto shadow-lg border border-gray-300 dark:border-gray-700 opacity-80 hover:opacity-100 transition-opacity duration-300"
             />
