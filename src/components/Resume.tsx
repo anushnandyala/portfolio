@@ -12,7 +12,7 @@ const Resume = () => {
 
         {/* Resume Preview as a Clickable Button */}
         <a 
-          href="https://drive.google.com/file/d/1Z4A_dSUPIXTFhIayn6O0ZumD71CzgHfS/view?usp=sharing" 
+          href="/anush-nandyala/Anush_Fall_2024_Resume.pdf " 
           target="_blank" 
           rel="noopener noreferrer" 
           className="mt-6 inline-block"
