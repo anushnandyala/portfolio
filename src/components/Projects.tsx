@@ -9,15 +9,24 @@ const Projects = () => {
 
         {/* Project 1 - Image Left, Description Right */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
-          <img src="/project1.png" alt="Project 1" className="w-full md:w-1/2 h-auto rounded-lg shadow-lg" />
+          <div className="flex justify-center md:w-1/2"> {/* Centering the image */}
+            <img 
+              src={`${import.meta.env.BASE_URL}productivity-calendar-app.png`} 
+              alt="Project 1" 
+              className="w-60 md:w-72 h-auto rounded-lg shadow-lg" 
+            />
+          </div>
           <div className="text-center md:text-left w-full md:w-1/2">
-            <h3 className="text-2xl font-semibold text-gray-900 dark:text-white">Project Name 1</h3>
+            <h3 className="text-2xl font-semibold text-gray-900 dark:text-white">
+              Productivity Calendar App
+            </h3>
             <p className="mt-2 text-gray-700 dark:text-gray-300">
-              Brief description of Project 1. This project focuses on solving XYZ problem using 
-              technologies like **React, Node.js, and MongoDB**.
+            - Built a full-stack calendar web application that enables students to input and track daily college schedules, clubs, tests, and assignments into multiple to-do planners integrated in a dynamic calendar <br />
+            - Enables users to input, find, and check off daily events between days, months, and years through a React frontend <br />
+            - Created a backend through a REST API using Express.js and a PostgreSQL database to store/access different types of events (exams, classes, etc.) <br />
             </p>
             <a 
-              href="https://github.com/yourusername/project1" 
+              href="https://github.com/anushnandyala/Productivity-Calendar-App" 
               target="_blank" 
               rel="noopener noreferrer"
               className="mt-4 inline-block text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white transition"
@@ -27,17 +36,17 @@ const Projects = () => {
           </div>
         </div>
 
+
         {/* Project 2 - Description Left, Image Right */}
         <div className="flex flex-col md:flex-row-reverse items-center justify-between gap-8">
           <img src="/project2.png" alt="Project 2" className="w-full md:w-1/2 h-auto rounded-lg shadow-lg" />
           <div className="text-center md:text-left w-full md:w-1/2">
-            <h3 className="text-2xl font-semibold text-gray-900 dark:text-white">Project Name 2</h3>
+            <h3 className="text-2xl font-semibold text-gray-900 dark:text-white">Music Tag and Download Tool            </h3>
             <p className="mt-2 text-gray-700 dark:text-gray-300">
-              Brief description of Project 2. This project is a tool that enhances productivity 
-              using **AI and automation techniques**.
+            Download and tag MP3s (songs) from YouTube videos, YouTube playlists, or local files. Download MP4 (videos) and thumbnails from YouTube videos and playlists as well.
             </p>
             <a 
-              href="https://github.com/yourusername/project2" 
+              href="https://github.com/anushnandyala/Music-Tagger" 
               target="_blank" 
               rel="noopener noreferrer"
               className="mt-4 inline-block text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white transition"
