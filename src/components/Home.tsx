@@ -16,7 +16,7 @@ const Home = () => {
         <div className="md:w-2/3">
           <h1 className="text-5xl font-bold text-gray-900 dark:text-white">Hi, I'm Anush Nandyala</h1>
           <p className="mt-4 text-lg text-gray-700 dark:text-gray-300">
-          I am Anush Nandyala, a Software Developer and Researcher pursuing a B.S. in Computer Science at Georgia Tech, with a focus on full-stack development, machine learning, and cloud computing. I have experience in React, TypeScript, Python, AWS, and PostgreSQL, and I enjoy building efficient and scalable applications. <br /> <br />
+          I am a Software Developer and Researcher pursuing a B.S. in Computer Science at Georgia Tech. I have experience in full-stack development, machine learning, and cloud computing. I have expertise in React, TypeScript, Python, AWS, and PostgreSQL, and I enjoy building efficient and scalable applications. <br /> <br />
           At AWS, I developed backend APIs, Lambda functions, and React components to automate workflows for service teams and product managers. My research in Computer Vision involved training YOLOv5-OBB models for object detection, improving accuracy in biological tracking. <br /> <br />
           Beyond work and research, I’ve built projects like a Productivity Calendar App for students to manage tasks and a Music Tagging Tool for downloading and organizing MP3 metadata. I am passionate about solving complex problems, creating impactful software, and continuously learning new technologies. <br />
 
