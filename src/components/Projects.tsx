@@ -39,11 +39,14 @@ const Projects = () => {
 
         {/* Project 2 - Description Left, Image Right */}
         <div className="flex flex-col md:flex-row-reverse items-center justify-between gap-8">
-          <img src="/project2.png" alt="Project 2" className="w-full md:w-1/2 h-auto rounded-lg shadow-lg" />
+          <img src={`${import.meta.env.BASE_URL}youtubetomp3.png`} alt="Project 2" className="w-full md:w-1/2 h-auto rounded-lg shadow-lg" />
           <div className="text-center md:text-left w-full md:w-1/2">
             <h3 className="text-2xl font-semibold text-gray-900 dark:text-white">Music Tag and Download Tool            </h3>
             <p className="mt-2 text-gray-700 dark:text-gray-300">
-            Download and tag MP3s (songs) from YouTube videos, YouTube playlists, or local files. Download MP4 (videos) and thumbnails from YouTube videos and playlists as well.
+            - Built a web application where users can download and tag metadata to MP3 songs from YouTube videos <br />
+            - Users enter a YouTube song/playlist URL and song data (artist, album, album cover art) through a React frontend <br />
+            - Developed a Python REST API using FastAPI and pytube to download the user an MP3 file or a folder of MP3s with tagged song metadata for use in music listening apps/devices <br />
+            - Allows users the ability to also tag local files, download YouTube MP4s, and YouTube thumbnails <br />
             </p>
             <a 
               href="https://github.com/anushnandyala/Music-Tagger" 
