@@ -12,7 +12,7 @@ const Resume = () => {
 
         {/* Resume Preview as a Clickable Button */}
         <a 
-          href="/anush-nandyala/Anush_Fall_2024_Resume.pdf " 
+          href="/portfolio/Anush_Fall_2024_Resume.pdf " 
           target="_blank" 
           rel="noopener noreferrer" 
           className="mt-6 inline-block"
