@@ -7,7 +7,7 @@ const Resume = () => {
       <div className="max-w-2xl text-center">
         <h2 className="text-3xl font-bold text-gray-900 dark:text-white">My Resume</h2>
         <p className="mt-4 text-gray-700 dark:text-gray-300">
-          Click below to view/download my professioxxxnal resume.
+          Click below to view/download my professional resume.
         </p>
 
         {/* Resume Preview as a Clickable Button */}
